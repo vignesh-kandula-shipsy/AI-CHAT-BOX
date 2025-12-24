@@ -1,66 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  margin: 0;
-}
-
-.center-box {
-  width: 300px;
-  margin: 100px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.center-box input {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-}
-
-.chat-container {
-  width: 50%;
-  margin: 40px auto;
-}
-
-.messages-box {
-  background: white;
-  height: 400px;
-  padding: 15px;
-  overflow-y: auto;
-  border-radius: 10px;
-}
-
-.message {
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-.user {
-  text-align: right;
-  background: #d1e7dd;
-}
-
-.bot {
-  text-align: left;
-  background: #e2e3e5;
-}
-
-.input-box {
-  display: flex;
-  margin-top: 10px;
-}
-
-.input-box input {
-  flex: 1;
-  padding: 10px;
-}
-
-button {
-  padding: 10px 15px;
-  background: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
+  @apply bg-slate-950 text-slate-50;
 }
